@@ -1,0 +1,24 @@
+From 394ea33491241f9b59be9ced7f8cb185b4412d79 Mon Sep 17 00:00:00 2001
+From: Li Bin <huawei.libin@huawei.com>
+Date: Mon, 16 Nov 2015 09:14:43 +0800
+Subject: [PATCH] modify func
+
+Signed-off-by: Li Bin <huawei.libin@huawei.com>
+---
+ sample/other/code/func.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/sample/other/code/func.c b/sample/other/code/func.c
+index 839c4d7..3b72a27 100644
+--- a/sample/other/code/func.c
++++ b/sample/other/code/func.c
+@@ -1,5 +1,5 @@
+ #include <linux/printk.h>
+ void func(void)
+ {
+-	printk("func\n");
++	printk("klp: func\n");
+ }
+-- 
+1.9.1
+
